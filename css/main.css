@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* header  */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f1ec;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.inner__pic {
+    vertical-align: middle;
+}
+
+.inner__photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms__input {
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.forms__btn {
+    width: 80px;
+    padding: 8px;
+    background-color: #7fffd4;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.acide {
+    display: flex;
+    margin-left: 20px;
+}
+
+.acide__desc__slogan {
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #808080;
+}
+
+.span {
+    font-weight: 700;
+    margin-right: 5px;
+    color: rgb(65, 165, 253);
+}
+
+.slogan__desc {
+    margin-left: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px;
+    color: #808080;
+}
+
+/* header__hero */
+.header__hero {
+    margin-top: 20px;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__link {
+    color: #808080;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hr {
+    margin-top: 20px;
+}
+
+.holder__pic {
+    margin-top: 40px;
+}
+
+/* main */
+
+.main {
+    margin-top: 30px;
+}
+
+/* inner */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inner__card {
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.card__title {
+    width: 300px;
+}
+
+.card__desc {
+    margin-top: 10px;
+    width: 300px;
+    color: #808080;
+}
+
+.card__pic {
+    margin-top: 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.hero {
+    padding: 24px;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.hero__btn {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #F78B3B;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 60px;
+    background-color: #F78B3B;
+}
+
+.hero__title {
+    width: 350px;
+    margin-left: 20px;
+}
